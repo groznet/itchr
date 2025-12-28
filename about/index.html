@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании ITCHR – 20+ лет опыта в IT-решениях для игровых клубов | Грозный</title>
+    <meta name="description" content="ITCHR — компания с 20-летним опытом предоставления комплексных IT-решений для игровых клубов в Грозном и Чеченской Республике.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Montserrat', 'ui-sans-serif', 'system-ui'],
+                    },
+                },
+            },
+        }
+    </script>    
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Header / Navigation: Loaded dynamically from /components/header.html -->
+    <header id="header" class="sticky top-0 z-50 bg-white shadow-md transition-all duration-300"></header>
+
+    <!-- Page Header -->
+    <!-- Set background image from assets/images/breadcrumb-bg.jpg -->
+    <section class="relative py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0" style="background-image: url('/assets/images/breadcrumb-bg.jpg');"></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <nav class="flex justify-center items-center space-x-2 text-sm mb-8" aria-label="Хлебные крошки">
+                    <a href="/" class="text-blue-300 hover:text-white transition">Главная</a>
+                    <span class="text-gray-400"><i class="fas fa-chevron-right"></i></span>
+                    <span class="text-amber-400 font-medium">О компании</span>
+                </nav>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    О компании <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-blue-400">ITCHR</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    20+ лет опыта в создании и обслуживании игровых клубов. 
+                    Более 50 успешных проектов по всей Чеченской Республике.
+                </p>
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/30">
+                    <i class="fas fa-history mr-2"></i>
+                    <span class="font-medium">Работаем с 2003 года</span>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-50 to-transparent"></div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div data-animation="slide-in-left">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-6">
+                        Наша <span class="text-blue-600">история</span>
+                    </h2>
+                    <div class="space-y-6">
+                        <p class="text-gray-600">
+                            Компания ITCHR была основана в 2003 году в Грозном, когда первые компьютерные клубы только начинали появляться в регионе. Наш основатель, Ханпаша, начал с обслуживания нескольких небольших игровых залов, быстро поняв специфику этого бизнеса.
+                        </p>
+                        <p class="text-gray-600">
+                            За 20+ лет работы мы прошли путь от небольшой команды энтузиастов до ведущей IT-компании в сфере игровых клубов на Северном Кавказе. Мы не просто устанавливаем оборудование — мы создаём успешные бизнес-проекты.
+                        </p>
+                        <p class="text-gray-600">
+                            Сегодня ITCHR — это команда профессионалов, которая реализовала более 50 проектов различной сложности, от небольших клубов на 10 компьютеров до крупных киберспортивных арен.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 grid grid-cols-2 gap-6">
+                        <div class="text-center p-4 bg-blue-50 rounded-xl">
+                            <div class="text-3xl font-bold text-blue-700 mb-2" data-counter="20">0</div>
+                            <div class="text-sm text-gray-600">Лет опыта</div>
+                        </div>
+                        <div class="text-center p-4 bg-green-50 rounded-xl">
+                            <div class="text-3xl font-bold text-green-700 mb-2" data-counter="50">0</div>
+                            <div class="text-sm text-gray-600">Успешных проектов</div>
+                        </div>
+                        <div class="text-center p-4 bg-purple-50 rounded-xl">
+                            <div class="text-3xl font-bold text-purple-700 mb-2" data-counter="200">0</div>
+                            <div class="text-sm text-gray-600">Клубов на поддержке</div>
+                        </div>
+                        <div class="text-center p-4 bg-amber-50 rounded-xl">
+                            <div class="text-3xl font-bold text-amber-700 mb-2" data-counter="15">0</div>
+                            <div class="text-sm text-gray-600">Сотрудников в команде</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative" data-animation="slide-in-right">
+                    <div class="card p-8 shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Компьютерный клуб ITCHR" 
+                             class="w-full h-64 object-cover rounded-xl mb-6">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-4">Наша миссия</h3>
+                        <blockquote class="text-gray-600 italic border-l-4 border-blue-500 pl-4 py-2 mb-6">
+                            "Создавать технологически совершенные и экономически эффективные игровые пространства, которые становятся центрами притяжения для геймеров и успешным бизнесом для владельцев."
+                        </blockquote>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold mr-4">
+                                Х
+                            </div>
+                            <div>
+                                <div class="font-bold text-slate-900">Ханпаша</div>
+                                <div class="text-sm text-gray-500">Основатель ITCHR</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Decorative elements -->
+                    <div class="absolute -top-4 -left-4 w-20 h-20 rounded-full bg-amber-400 opacity-20"></div>
+                    <div class="absolute -bottom-4 -right-4 w-16 h-16 rounded-full bg-blue-400 opacity-20"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Наши ценности</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Принципы, которые лежат в основе каждого нашего проекта
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Value 1 -->
+                <div class="card text-center hover:shadow-xl transition-all duration-300" data-animation="fade-in">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-handshake text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Надёжность</h3>
+                    <p class="text-gray-600">
+                        Мы строим долгосрочные отношения с клиентами. Каждый проект — это ответственность, которую мы несём годами.
+                    </p>
+                </div>
+
+                <!-- Value 2 -->
+                <div class="card text-center hover:shadow-xl transition-all duration-300" data-animation="fade-in" data-animation-delay="100">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-green-500 to-green-600 text-white flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-lightbulb text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Экспертиза</h3>
+                    <p class="text-gray-600">
+                        20+ лет опыта позволяют нам предвидеть проблемы и предлагать оптимальные решения для любого проекта.
+                    </p>
+                </div>
+
+                <!-- Value 3 -->
+                <div class="card text-center hover:shadow-xl transition-all duration-300" data-animation="fade-in" data-animation-delay="200">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 text-white flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-cogs text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Комплексность</h3>
+                    <p class="text-gray-600">
+                        От проекта до ежедневной поддержки — всё в одном месте. Клиент получает единый источник ответственности.
+                    </p>
+                </div>
+
+                <!-- Value 4 -->
+                <div class="card text-center hover:shadow-xl transition-all duration-300" data-animation="fade-in" data-animation-delay="300">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 text-white flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Преданность делу</h3>
+                    <p class="text-gray-600">
+                        Мы любим то, что делаем. Каждый успешный клуб — это наша общая победа и повод для гордости.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Наша команда</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Профессионалы с многолетним опытом в IT-инфраструктуре и игровой индустрии
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="text-center" data-animation="fade-in">
+                    <div class="w-48 h-48 rounded-full mx-auto mb-6 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-6xl font-bold">
+                        Х
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Ханпаша</h3>
+                    <div class="text-blue-600 font-medium mb-3">Основатель & Генеральный директор</div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Более 20 лет в IT-индустрии. Начал с обслуживания первых компьютерных клубов в Грозном.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center hover:bg-blue-200 transition">
+                            <i class="fab fa-telegram text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center hover:bg-gray-200 transition">
+                            <i class="fas fa-envelope text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="text-center" data-animation="fade-in" data-animation-delay="100">
+                    <div class="w-48 h-48 rounded-full mx-auto mb-6 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white text-6xl font-bold">
+                        М
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Магомед</h3>
+                    <div class="text-green-600 font-medium mb-3">Технический директор</div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        15 лет опыта в сетевых технологиях и системном администрировании. Сертифицированный специалист.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center hover:bg-green-200 transition">
+                            <i class="fab fa-telegram text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center hover:bg-gray-200 transition">
+                            <i class="fas fa-envelope text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="text-center" data-animation="fade-in" data-animation-delay="200">
+                    <div class="w-48 h-48 rounded-full mx-auto mb-6 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center text-white text-6xl font-bold">
+                        А
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Аслан</h3>
+                    <div class="text-purple-600 font-medium mb-3">Руководитель проектов</div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Управляет всеми проектами от первой консультации до сдачи. Опыт работы — 12 лет.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="w-8 h-8 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center hover:bg-purple-200 transition">
+                            <i class="fab fa-telegram text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center hover:bg-gray-200 transition">
+                            <i class="fas fa-envelope text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="text-center" data-animation="fade-in" data-animation-delay="300">
+                    <div class="w-48 h-48 rounded-full mx-auto mb-6 bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-white text-6xl font-bold">
+                        С
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Салман</h3>
+                    <div class="text-amber-600 font-medium mb-3">Руководитель техподдержки</div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Отвечает за бесперебойную работу всех клубов на нашей поддержке. В команде — 8 техников.
+                    </p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center hover:bg-amber-200 transition">
+                            <i class="fab fa-telegram text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center hover:bg-gray-200 transition">
+                            <i class="fas fa-envelope text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <div class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full font-medium">
+                    <i class="fas fa-users mr-3"></i>
+                    Всего в команде: 15 профессионалов
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Как мы работаем</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Чёткий и отлаженный процесс, который гарантирует качество и соблюдение сроков
+                </p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-500 to-green-500"></div>
+
+                <!-- Timeline items -->
+                <div class="space-y-12">
+                    <!-- Step 1 -->
+                    <div class="relative" data-animation="fade-in">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white font-bold text-xl mb-4">
+                                    1
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-3">Анализ и консультация</h3>
+                                <p class="text-gray-600">
+                                    Детальное изучение требований, бюджета, помещения. Составление технического задания и предварительной сметы.
+                                </p>
+                            </div>
+                            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-600 border-4 border-white"></div>
+                            <div class="md:w-1/2 md:pl-12"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="relative" data-animation="fade-in" data-animation-delay="100">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-12"></div>
+                            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-green-600 border-4 border-white"></div>
+                            <div class="md:w-1/2 md:pl-12 mb-6 md:mb-0">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-600 text-white font-bold text-xl mb-4">
+                                    2
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-3">Проектирование</h3>
+                                <p class="text-gray-600">
+                                    Разработка детального проекта: электрика, сети, вентиляция, расстановка оборудования, зонирование.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="relative" data-animation="fade-in" data-animation-delay="200">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-12 md:text-right mb-6 md:mb-0">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-600 text-white font-bold text-xl mb-4">
+                                    3
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-3">Реализация</h3>
+                                <p class="text-gray-600">
+                                    Закупка оборудования, монтажные работы, настройка ПО, тестирование всех систем. Строгое соблюдение сроков.
+                                </p>
+                            </div>
+                            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-amber-600 border-4 border-white"></div>
+                            <div class="md:w-1/2 md:pl-12"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="relative" data-animation="fade-in" data-animation-delay="300">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 md:pr-12"></div>
+                            <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-purple-600 border-4 border-white"></div>
+                            <div class="md:w-1/2 md:pl-12 mb-6 md:mb-0">
+                                <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-600 text-white font-bold text-xl mb-4">
+                                    4
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-3">Поддержка</h3>
+                                <p class="text-gray-600">
+                                    Сдача проекта, обучение персонала, гарантийное обслуживание, круглосуточная техническая поддержка.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Partners -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Сертификаты и партнёры</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Мы работаем только с проверенными поставщиками и имеем все необходимые сертификаты
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Partner 1 -->
+                <div class="text-center p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Официальный партнёр</h3>
+                    <p class="text-gray-600 text-sm">
+                        Gizmo, Runpad PRO, GameClass PRO на территории Чеченской Республики
+                    </p>
+                </div>
+
+                <!-- Partner 2 -->
+                <div class="text-center p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-green-500 to-green-600 text-white flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-award text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Сертифицированные специалисты</h3>
+                    <p class="text-gray-600 text-sm">
+                        Все инженеры имеют сертификаты Cisco, Microsoft, CompTIA
+                    </p>
+                </div>
+
+                <!-- Partner 3 -->
+                <div class="text-center p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 text-white flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Партнёрство с лидерами</h3>
+                    <p class="text-gray-600 text-sm">
+                        Работаем напрямую с ASUS, MSI, TP-Link, D-Link, Intel
+                    </p>
+                </div>
+
+                <!-- Partner 4 -->
+                <div class="text-center p-6 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 text-white flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Гарантия качества</h3>
+                    <p class="text-gray-600 text-sm">
+                        Все работы проводятся по стандартам ISO 9001 и собственной системе контроля качества
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-gradient-to-r from-blue-900 to-slate-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Почему выбирают ITCHR?</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto">
+                    Преимущества, которые делают нас лидерами в сфере IT-решений для игровых клубов
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Advantage 1 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-history text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">20+ лет опыта</h3>
+                    <p class="text-gray-300">
+                        Мы работаем в индустрии с момента появления первых компьютерных клубов. Знаем все тонкости и подводные камни.
+                    </p>
+                </div>
+
+                <!-- Advantage 2 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Круглосуточная поддержка</h3>
+                    <p class="text-gray-300">
+                        Техническая поддержка 24/7/365. Среднее время реакции — 15 минут. Гарантия uptime 99,9%.
+                    </p>
+                </div>
+
+                <!-- Advantage 3 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Полный цикл услуг</h3>
+                    <p class="text-gray-300">
+                        От проекта до ежедневной поддержки — всё в одном месте. Не нужно искать разных подрядчиков.
+                    </p>
+                </div>
+
+                <!-- Advantage 4 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-map-marker-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Локальная экспертиза</h3>
+                    <p class="text-gray-300">
+                        Мы работаем в Грозном и знаем все региональные особенности: провайдеры, поставщики, законодательство.
+                    </p>
+                </div>
+
+                <!-- Advantage 5 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-red-500 to-red-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-guarantee text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Гарантия на всё</h3>
+                    <p class="text-gray-300">
+                        Гарантия на оборудование — до 36 месяцев, на работы — 24 месяца, на ПО — 12 месяцев бесплатных обновлений.
+                    </p>
+                </div>
+
+                <!-- Advantage 6 -->
+                <div class="p-8 bg-white/10 rounded-2xl backdrop-blur-sm hover:bg-white/15 transition">
+                    <div class="w-16 h-16 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Опытная команда</h3>
+                    <p class="text-gray-300">
+                        15 профессионалов со средним стажем 8+ лет. Постоянное обучение и повышение квалификации.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="/contact" class="btn-primary bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 px-10 py-4 text-lg">
+                    <i class="fas fa-calendar-check mr-3"></i>
+                    Записаться на консультацию
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section: Loaded dynamically from /components/cta.html -->
+    <section id="cta" class="py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white"></section>
+
+    <!-- Footer: Loaded dynamically from /components/footer.html -->
+    <footer id="footer" class="bg-slate-900 text-white pt-16 pb-8"></footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible flex items-center justify-center">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Main JavaScript File -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize animations with delays
+            document.querySelectorAll('[data-animation-delay]').forEach(el => {
+                const delay = el.getAttribute('data-animation-delay');
+                el.style.animationDelay = delay + 'ms';
+            });
+            
+            // Team member hover effects
+            const teamMembers = document.querySelectorAll('.text-center');
+            teamMembers.forEach(member => {
+                member.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                
+                member.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

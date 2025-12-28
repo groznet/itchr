@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши клиенты – Игровые клубы Чечни | ITCHR – Грозный</title>
+    <meta name="description" content="Клиенты ITCHR: игровые клубы Алькапоне, Бункер, ARTKILL и другие. Более 50 успешных проектов по всей Чеченской Республике.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Montserrat', 'ui-sans-serif', 'system-ui'],
+                    },
+                },
+            },
+        }
+    </script>    
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Header / Navigation: Loaded dynamically from /components/header.html -->
+    <header id="header" class="sticky top-0 z-50 bg-white shadow-md transition-all duration-300"></header>
+
+    <!-- Page Header -->
+    <!-- Set background image from assets/images/breadcrumb-bg.jpg -->
+    <section class="relative py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0" style="background-image: url('/assets/images/breadcrumb-bg.jpg');"></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <nav class="flex justify-center items-center space-x-2 text-sm mb-8" aria-label="Хлебные крошки">
+                    <a href="/" class="text-blue-300 hover:text-white transition">Главная</a>
+                    <span class="text-gray-400"><i class="fas fa-chevron-right"></i></span>
+                    <span class="text-amber-400 font-medium">Клиенты</span>
+                </nav>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    Наши <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-blue-400">клиенты</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Более 50 успешных проектов по всей Чеченской Республике. 
+                    От небольших игровых залов до крупных киберспортивных арен.
+                </p>
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/30">
+                    <i class="fas fa-trophy mr-2"></i>
+                    <span class="font-medium">Ведущие клубы Чечни доверяют нам</span>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-50 to-transparent"></div>
+    </section>
+
+    <!-- Featured Clients -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Ключевые проекты</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Наиболее значимые проекты, которые демонстрируют наш опыт и экспертизу
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Client 1 - Алькапоне -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in">
+                    <div class="relative overflow-hidden rounded-xl mb-6">
+                        <div class="w-full h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center text-white text-4xl font-bold">
+                            АЛЬКАПОНЕ
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-amber-500 text-white text-xs font-bold rounded-full">
+                                Премиум
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Игровой клуб "Алькапоне"</h3>
+                    <div class="flex items-center text-gray-600 mb-4">
+                        <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>
+                        <span>Грозный, центр</span>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">
+                        Крупнейший игровой клуб в центре Грозного. 40 игровых станций премиум-класса, отдельная зона для киберспортивных турниров, барная стойка.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-tasks text-blue-600 mr-2"></i>
+                            Выполненные работы:
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs">Установка под ключ</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs">Турнирная система</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs">Gizmo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-lg font-bold text-slate-900">40 рабочих станций</div>
+                            <div class="text-sm text-gray-500">Запущен в 2021</div>
+                        </div>
+                        <a href="/clients/alkapone" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                            Кейс <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Client 2 - Бункер -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in" data-animation-delay="100">
+                    <div class="relative overflow-hidden rounded-xl mb-6">
+                        <div class="w-full h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center text-white text-4xl font-bold">
+                            БУНКЕР
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-full">
+                                Киберспорт
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Киберспорт арена "Бункер"</h3>
+                    <div class="flex items-center text-gray-600 mb-4">
+                        <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>
+                        <span>Грозный, пр. Путина</span>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">
+                        Специализированная киберспортивная арена для проведения турниров. 30 игровых ПК, стриминг-студия, зона для зрителей на 50 человек.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-tasks text-blue-600 mr-2"></i>
+                            Выполненные работы:
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs">Модернизация</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-xs">Турнирная инфраструктура</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs">GameClass PRO</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-lg font-bold text-slate-900">30 турнирных ПК</div>
+                            <div class="text-sm text-gray-500">Обновлён в 2022</div>
+                        </div>
+                        <a href="/clients/bunker" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                            Кейс <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Client 3 - ARTKILL -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in" data-animation-delay="200">
+                    <div class="relative overflow-hidden rounded-xl mb-6">
+                        <div class="w-full h-48 bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center text-white text-4xl font-bold">
+                            ARTKILL
+                        </div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-green-500 text-white text-xs font-bold rounded-full">
+                                Гейминг центр
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Гейминг центр "ARTKILL"</h3>
+                    <div class="flex items-center text-gray-600 mb-4">
+                        <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>
+                        <span>Грозный, ул. Маяковского</span>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">
+                        Современный гейминг-центр с футуристичным дизайном. 25 игровых станций, VR-зона, PlayStation/XBOX Lounge, коворкинг для стримеров.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-tasks text-blue-600 mr-2"></i>
+                            Выполненные работы:
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs">Установка под ключ</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs">VR оборудование</span>
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-xs">Runpad PRO</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-lg font-bold text-slate-900">25 ПК + VR зона</div>
+                            <div class="text-sm text-gray-500">Запущен в 2023</div>
+                        </div>
+                        <a href="/clients/artkill" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                            Кейс <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Statistics -->
+    <section class="py-20 bg-gradient-to-r from-blue-900 to-slate-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Цифры, которые говорят сами за себя</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto">
+                    Статистика наших проектов и удовлетворённость клиентов
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Stat 1 -->
+                <div class="text-center p-8 bg-white/10 rounded-2xl backdrop-blur-sm">
+                    <div class="text-5xl font-bold mb-4" data-counter="50">0</div>
+                    <div class="text-xl font-medium mb-2">Успешных проектов</div>
+                    <p class="text-gray-300 text-sm">
+                        От небольших клубов до крупных арен
+                    </p>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="text-center p-8 bg-white/10 rounded-2xl backdrop-blur-sm">
+                    <div class="text-5xl font-bold mb-4" data-counter="200">0</div>
+                    <div class="text-xl font-medium mb-2">Клубов на поддержке</div>
+                    <p class="text-gray-300 text-sm">
+                        Круглосуточная техническая поддержка
+                    </p>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="text-center p-8 bg-white/10 rounded-2xl backdrop-blur-sm">
+                    <div class="text-5xl font-bold mb-4" data-counter="98">0<span class="text-3xl">%</span></div>
+                    <div class="text-xl font-medium mb-2">Довольных клиентов</div>
+                    <p class="text-gray-300 text-sm">
+                        По результатам ежегодных опросов
+                    </p>
+                </div>
+
+                <!-- Stat 4 -->
+                <div class="text-center p-8 bg-white/10 rounded-2xl backdrop-blur-sm">
+                    <div class="text-5xl font-bold mb-4" data-counter="1000">0<span class="text-3xl">+</span></div>
+                    <div class="text-xl font-medium mb-2">Рабочих станций</div>
+                    <p class="text-gray-300 text-sm">
+                        Установлено и обслуживается
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Clients Grid -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Другие наши клиенты</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Игровые клубы по всей Чеченской Республике, которые доверили нам свои проекты
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Client Logo 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        GZ
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">GameZone</h3>
+                    <div class="text-sm text-gray-500 mb-3">Грозный</div>
+                    <div class="text-xs text-blue-600 font-medium">15 ПК | 2020</div>
+                </div>
+
+                <!-- Client Logo 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-green-500 to-green-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        КС
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">КиберСфера</h3>
+                    <div class="text-sm text-gray-500 mb-3">Аргун</div>
+                    <div class="text-xs text-green-600 font-medium">20 ПК | 2021</div>
+                </div>
+
+                <!-- Client Logo 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        NG
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">NextGen</h3>
+                    <div class="text-sm text-gray-500 mb-3">Гудермес</div>
+                    <div class="text-xs text-purple-600 font-medium">18 ПК | 2022</div>
+                </div>
+
+                <!-- Client Logo 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        PG
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">ProGaming</h3>
+                    <div class="text-sm text-gray-500 mb-3">Шали</div>
+                    <div class="text-xs text-amber-600 font-medium">22 ПК | 2021</div>
+                </div>
+
+                <!-- Client Logo 5 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-red-500 to-red-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        EA
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Elite Arena</h3>
+                    <div class="text-sm text-gray-500 mb-3">Урус-Мартан</div>
+                    <div class="text-xs text-red-600 font-medium">12 ПК | 2020</div>
+                </div>
+
+                <!-- Client Logo 6 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        CC
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">CyberCity</h3>
+                    <div class="text-sm text-gray-500 mb-3">Грозный</div>
+                    <div class="text-xs text-indigo-600 font-medium">25 ПК | 2023</div>
+                </div>
+
+                <!-- Client Logo 7 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-pink-500 to-pink-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        GG
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">GameGarage</h3>
+                    <div class="text-sm text-gray-500 mb-3">Грозный</div>
+                    <div class="text-xs text-pink-600 font-medium">16 ПК | 2022</div>
+                </div>
+
+                <!-- Client Logo 8 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow flex flex-col items-center justify-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-teal-500 to-teal-600 text-white flex items-center justify-center text-2xl font-bold mb-4">
+                        VA
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Virtual Arena</h3>
+                    <div class="text-sm text-gray-500 mb-3">Грозный</div>
+                    <div class="text-xs text-teal-600 font-medium">30 ПК | 2023</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Отзывы наших клиентов</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Что говорят владельцы игровых клубов о работе с ITCHR
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card hover:shadow-xl transition-all duration-300" data-animation="fade-in">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center text-xl font-bold mr-4">
+                            М
+                        </div>
+                        <div>
+                            <div class="font-bold text-slate-900">Магомед</div>
+                            <div class="text-sm text-gray-500">Владелец "Алькапоне"</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex text-amber-400 mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "Работаем с ITCHR уже 3 года. Запускали клуб с нуля, потом делали апгрейд. Всегда профессионально, в срок, без скрытых платежей. Техподдержка реагирует мгновенно. Рекомендую!"
+                        </p>
+                    </div>
+                    
+                    <div class="pt-6 border-t border-gray-100">
+                        <div class="text-sm text-gray-500">Проект: "Алькапоне", 40 ПК</div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card hover:shadow-xl transition-all duration-300" data-animation="fade-in" data-animation-delay="100">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white flex items-center justify-center text-xl font-bold mr-4">
+                            А
+                        </div>
+                        <div>
+                            <div class="font-bold text-slate-900">Аслан</div>
+                            <div class="text-sm text-gray-500">Управляющий "Бункер"</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex text-amber-400 mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "Когда решили переоборудовать клуб в киберспортивную арену, обратились к ITCHR. Сделали всё под ключ: от проекта турнирной зоны до настройки стриминга. Теперь проводим республиканские турниры!"
+                        </p>
+                    </div>
+                    
+                    <div class="pt-6 border-t border-gray-100">
+                        <div class="text-sm text-gray-500">Проект: "Бункер", турнирная арена</div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card hover:shadow-xl transition-all duration-300" data-animation="fade-in" data-animation-delay="200">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 text-white flex items-center justify-center text-xl font-bold mr-4">
+                            С
+                        </div>
+                        <div>
+                            <div class="font-bold text-slate-900">Салман</div>
+                            <div class="text-sm text-gray-500">Владелец "ARTKILL"</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex text-amber-400 mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 italic">
+                            "Хотел создать не просто клуб, а современный гейминг-центр. ITCHR предложили крутые решения с VR и консольной зоной. Ребята действительно разбираются в трендах гейминга. Клиенты в восторге!"
+                        </p>
+                    </div>
+                    
+                    <div class="pt-6 border-t border-gray-100">
+                        <div class="text-sm text-gray-500">Проект: "ARTKILL", гейминг центр</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button id="load-more-testimonials" class="btn-secondary border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
+                    <i class="fas fa-comment-alt mr-3"></i>
+                    Показать ещё отзывы
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies CTA -->
+    <section class="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Детальные кейсы наших проектов</h2>
+                    <p class="text-xl text-gray-300 mb-8">
+                        Хотите увидеть, как мы решали конкретные задачи для других клубов? 
+                        Изучите детальные кейсы с фото, схемами и цифрами.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+                            <span>Полное описание проекта от идеи до запуска</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-400 mt=1 mr-3"></i>
+                            <span>Технические решения и оборудование</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-400 mt=1 mr-3"></i>
+                            <span>Бизнес-показатели до и после</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-400 mt=1 mr-3"></i>
+                            <span>Отзывы владельцев и фотографии</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-sm">
+                    <h3 class="text-2xl font-bold mb-6">Получить кейсы на почту</h3>
+                    <form id="case-studies-form" class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Ваше имя" class="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email" class="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <select class="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="" disabled selected>Интересующий проект</option>
+                                <option value="alkapone">Алькапоне (40 ПК, премиум)</option>
+                                <option value="bunker">Бункер (киберспорт арена)</option>
+                                <option value="artkill">ARTKILL (гейминг центр)</option>
+                                <option value="all">Все кейсы</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary w-full py-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700">
+                            <i class="fas fa-download mr-3"></i>
+                            Получить кейсы
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Become Our Client -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Станьте нашим следующим успешным проектом</h2>
+                <p class="text-xl text-gray-600 mb-10">
+                    Присоединяйтесь к более чем 50 довольным клиентам, которые уже работают с ITCHR
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="p-6 bg-white rounded-2xl shadow-md">
+                        <div class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-calendar-check text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3">Консультация</h3>
+                        <p class="text-gray-600 text-sm">
+                            Бесплатный анализ вашего проекта и расчёт стоимости
+                        </p>
+                    </div>
+                    
+                    <div class="p-6 bg-white rounded-2xl shadow-md">
+                        <div class="w-16 h-16 rounded-xl bg-green-100 text-green-600 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-cogs text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3">Реализация</h3>
+                        <p class="text-gray-600 text-sm">
+                            Профессиональное выполнение работ с гарантией качества
+                        </p>
+                    </div>
+                    
+                    <div class="p-6 bg-white rounded-2xl shadow-md">
+                        <div class="w-16 h-16 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-headset text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3">Поддержка</h3>
+                        <p class="text-gray-600 text-sm">
+                            Круглосуточная техподдержка и постоянное развитие
+                        </p>
+                    </div>
+                </div>
+                
+                <a href="/contact" class="btn-primary px-12 py-4 text-lg">
+                    <i class="fas fa-rocket mr-3"></i>
+                    Обсудить ваш проект
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section: Loaded dynamically from /components/cta.html -->
+    <section id="cta" class="py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white"></section>
+
+    <!-- Footer: Loaded dynamically from /components/footer.html -->
+    <footer id="footer" class="bg-slate-900 text-white pt-16 pb-8"></footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible flex items-center justify-center">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Main JavaScript File -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize animations with delays
+            document.querySelectorAll('[data-animation-delay]').forEach(el => {
+                const delay = el.getAttribute('data-animation-delay');
+                el.style.animationDelay = delay + 'ms';
+            });
+            
+            // Load more testimonials
+            const loadMoreBtn = document.getElementById('load-more-testimonials');
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    const testimonialsContainer = document.querySelector('.grid.md\\:grid-cols-2.lg\\:grid-cols-3');
+                    if (testimonialsContainer) {
+                        // Create new testimonial elements
+                        const newTestimonials = [
+                            {
+                                initial: 'Р',
+                                name: 'Руслан',
+                                role: 'Владелец "GameZone"',
+                                text: '"Начинали с небольшого клуба на 10 ПК, через год расширились до 20. ITCHR помогли с масштабированием без простоев. Техподдержка всегда на связи, проблемы решают быстро."',
+                                project: '"GameZone", расширение до 20 ПК'
+                            },
+                            {
+                                initial: 'И',
+                                name: 'Ислам',
+                                role: 'Управляющий "КиберСфера"',
+                                text: '"Работаем с ITCHR с момента открытия. Ни разу не пожалели о выборе. Все системы работают стабильно, обновления устанавливают вовремя. Персонал обучен хорошо."',
+                                project: '"КиберСфера", Аргун'
+                            },
+                            {
+                                initial: 'З',
+                                name: 'Заур',
+                                role: 'Владелец "NextGen"',
+                                text: '"Открывали клуб в Гудермесе. ITCHR сделали всё дистанционно: проект, закупка, настройка. Приехали только на финальный монтаж. Сэкономили время и деньги."',
+                                project: '"NextGen", Гудермес'
+                            }
+                        ];
+                        
+                        newTestimonials.forEach((testimonial, index) => {
+                            const testimonialEl = document.createElement('div');
+                            testimonialEl.className = 'card hover:shadow-xl transition-all duration-300';
+                            testimonialEl.style.animation = 'fadeIn 0.8s ease-out forwards';
+                            testimonialEl.style.animationDelay = (index * 100) + 'ms';
+                            testimonialEl.innerHTML = `
+                                <div class="flex items-center mb-6">
+                                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 text-white flex items-center justify-center text-xl font-bold mr-4">
+                                        ${testimonial.initial}
+                                    </div>
+                                    <div>
+                                        <div class="font-bold text-slate-900">${testimonial.name}</div>
+                                        <div class="text-sm text-gray-500">${testimonial.role}</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-6">
+                                    <div class="flex text-amber-400 mb-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="text-gray-600 italic">
+                                        ${testimonial.text}
+                                    </p>
+                                </div>
+                                
+                                <div class="pt-6 border-t border-gray-100">
+                                    <div class="text-sm text-gray-500">${testimonial.project}</div>
+                                </div>
+                            `;
+                            
+                            testimonialsContainer.appendChild(testimonialEl);
+                        });
+                        
+                        // Hide button after loading
+                        loadMoreBtn.style.display = 'none';
+                        
+                        // Show notification
+                        showNotification('Загружено ещё 3 отзыва', 'success');
+                    }
+                });
+            }
+            
+            // Case studies form submission
+            const caseStudiesForm = document.getElementById('case-studies-form');
+            if (caseStudiesForm) {
+                caseStudiesForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = new FormData(caseStudiesForm);
+                    const data = Object.fromEntries(formData);
+                    
+                    if (!data.name || !data.email) {
+                        showNotification('Пожалуйста, заполните обязательные поля', 'error');
+                        return;
+                    }
+                    
+                    showNotification('Кейсы отправлены на вашу почту. Проверьте папку "Входящие" и "Спам".', 'success');
+                    caseStudiesForm.reset();
+                });
+            }
+            
+            // Client card hover effects
+            const clientCards = document.querySelectorAll('.card');
+            clientCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Решения и софт для игровых клубов | ITCHR – Грозный</title>
+    <meta name="description" content="Профессиональное ПО для управления игровыми клубами: Gizmo, Runpad PRO, GameClass PRO, CCBoot. Лицензии, настройка, поддержка.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Montserrat', 'ui-sans-serif', 'system-ui'],
+                    },
+                },
+            },
+        }
+    </script>    
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Header / Navigation: Loaded dynamically from /components/header.html -->
+    <header id="header" class="sticky top-0 z-50 bg-white shadow-md transition-all duration-300"></header>
+
+    <!-- Page Header -->
+    <section class="relative py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <!-- Set background image from assets/images/breadcrumb-bg.jpg -->
+            <div class="absolute inset-0" style="background-image: url('/assets/images/breadcrumb-bg.jpg');"></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <nav class="flex justify-center items-center space-x-2 text-sm mb-8" aria-label="Хлебные крошки">
+                    <a href="/" class="text-blue-300 hover:text-white transition">Главная</a>
+                    <span class="text-gray-400"><i class="fas fa-chevron-right"></i></span>
+                    <span class="text-amber-400 font-medium">Решения и софт</span>
+                </nav>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    Программные <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-blue-400">решения</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Профессиональное ПО для управления игровыми клубами любого масштаба. 
+                    Лицензии, настройка, обучение и круглосуточная поддержка.
+                </p>
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/30">
+                    <i class="fas fa-certificate mr-2"></i>
+                    <span class="font-medium">Официальные дистрибьюторы</span>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-50 to-transparent"></div>
+    </section>
+
+    <!-- Software Comparison -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Выберите оптимальное решение</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Сравните возможности популярных платформ для управления игровыми клубами
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Gizmo -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in">
+                    <div class="text-center mb-6">
+                        <div class="h-24 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-4">
+                            <!-- <i class="fas fa-cube text-white text-4xl"></i> -->
+                            <img src="/assets/images/Gizmo.svg" alt="Gizmo" class="w-full h-full object-cover rounded-xl">
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Gizmo</h3>
+                        <div class="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+                            <i class="fas fa-crown mr-1"></i>
+                            Премиум решение
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-bolt text-blue-600 mr-2"></i>
+                            Ключевые возможности:
+                        </h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Полный контроль над клубом</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Управление бронированием</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Мощная аналитика и отчёты</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Интеграция с кассой</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-users text-blue-600 mr-2"></i>
+                            Для кого:
+                        </h4>
+                        <p class="text-gray-600 text-sm">
+                            Крупные клубы от 20+ ПК, нуждающиеся в полном контроле и аналитике
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-2xl font-bold text-slate-900">от 45 000 ₽</div>
+                            <div class="text-sm text-gray-500">+ обновления</div>
+                        </div>
+                        <a href="/solutions/gizmo" class="btn-primary px-6 py-2">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            Детали
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Runpad PRO -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in" data-animation-delay="100">
+                    <div class="text-center mb-6">
+                        <div class="h-24 from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-rocket text-white text-4xl"></i>
+                            <img src="/assets/images/Runpad-PRO.jpg" alt="Runpad PRO" class="w-full h-full object-cover rounded-xl">
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Runpad PRO</h3>
+                        <div class="inline-flex items-center px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                            <i class="fas fa-bolt mr-1"></i>
+                            Высокая скорость
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-tachometer-alt text-purple-600 mr-2"></i>
+                            Ключевые возможности:
+                        </h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Быстрая загрузка станций</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Тонкие клиенты поддержка</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Централизованное управление</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Экономия на оборудовании</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-users text-purple-600 mr-2"></i>
+                            Для кого:
+                        </h4>
+                        <p class="text-gray-600 text-sm">
+                            Клубы, ценящие скорость и стабильность, с mixed-средой (ПК + тонкие клиенты)
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-2xl font-bold text-slate-900">от 35 000 ₽</div>
+                            <div class="text-sm text-gray-500">+ техподдержка</div>
+                        </div>
+                        <a href="/solutions/runpad-pro" class="btn-primary px-6 py-2">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            Детали
+                        </a>
+                    </div>
+                </div>
+
+                <!-- GameClass PRO -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in" data-animation-delay="200">
+                    <div class="text-center mb-6">
+                        <div class="h-24 to-green-700 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-gamepad text-white text-4xl"></i>
+                            <img src="/assets/images/GameClass PRO.svg" alt="GameClass PRO" class="w-full h-full object-cover rounded-xl">
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">GameClass PRO</h3>
+                        <div class="inline-flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                            <i class="fas fa-trophy mr-1"></i>
+                            Для турниров
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-chess text-green-600 mr-2"></i>
+                            Ключевые возможности:
+                        </h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Турнирные функции</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Геймерские профили</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Рейтинги и статистика</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Стриминг интеграции</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-users text-green-600 mr-2"></i>
+                            Для кого:
+                        </h4>
+                        <p class="text-gray-600 text-sm">
+                            Киберспортивные арены и клубы, ориентированные на турниры и сообщество
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-2xl font-bold text-slate-900">от 40 000 ₽</div>
+                            <div class="text-sm text-gray-500">+ обновления</div>
+                        </div>
+                        <a href="/solutions/gameclass-pro" class="btn-primary px-6 py-2">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            Детали
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CCBoot Бездиск -->
+                <div class="card hover:shadow-xl transition-all duration-300 group" data-animation="fade-in" data-animation-delay="300">
+                    <div class="text-center mb-6">
+                        <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-hdd text-white text-4xl"></i>
+                            <img src="/assets/images/CCBoot.png" alt="CCBoot" class="w-full h-full object-cover rounded-xl">
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-2">CCBoot Бездиск</h3>
+                        <div class="inline-flex items-center px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-medium">
+                            <i class="fas fa-leaf mr-1"></i>
+                            Экономия
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-save text-red-600 mr-2"></i>
+                            Ключевые возможности:
+                        </h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Бездисковые рабочие станции</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Централизованное хранение</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Экономия электроэнергии</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2 flex-shrink-0"></i>
+                                <span>Простое обслуживание</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-slate-900 mb-3 flex items-center">
+                            <i class="fas fa-users text-red-600 mr-2"></i>
+                            Для кого:
+                        </h4>
+                        <p class="text-gray-600 text-sm">
+                            Клубы, стремящиеся к максимальной экономии на оборудовании и электроэнергии
+                        </p>
+                    </div>
+                    
+                    <div class="flex items-center justify-between pt-6 border-t border-gray-100">
+                        <div>
+                            <div class="text-2xl font-bold text-slate-900">от 25 000 ₽</div>
+                            <div class="text-sm text-gray-500">за серверную лицензию</div>
+                        </div>
+                        <a href="/solutions/ccboot" class="btn-primary px-6 py-2">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            Детали
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Comparison Table -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Детальное сравнение решений</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Все ключевые функции и возможности в одном месте для удобного выбора
+                </p>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl shadow-lg">
+                <table class="w-full min-w-full">
+                    <thead>
+                        <tr class="bg-slate-900 text-white">
+                            <th class="py-4 px-6 text-left font-bold">Функция / Решение</th>
+                            <th class="py-4 px-6 text-center font-bold">Gizmo</th>
+                            <th class="py-4 px-6 text-center font-bold">Runpad PRO</th>
+                            <th class="py-4 px-6 text-center font-bold">GameClass PRO</th>
+                            <th class="py-4 px-6 text-center font-bold">CCBoot</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <!-- Row 1 -->
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="py-4 px-6 font-medium text-slate-900">Управление доступом</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                        </tr>
+                        <!-- Row 2 -->
+                        <tr class="hover:bg-gray-50 transition bg-gray-50">
+                            <td class="py-4 px-6 font-medium text-slate-900">Биллинг и касса</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <span class="text-gray-400">—</span>
+                            </td>
+                        </tr>
+                        <!-- Row 3 -->
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="py-4 px-6 font-medium text-slate-900">Турнирные функции</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <span class="text-gray-400">—</span>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Расширенные</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <span class="text-gray-400">—</span>
+                            </td>
+                        </tr>
+                        <!-- Row 4 -->
+                        <tr class="hover:bg-gray-50 transition bg-gray-50">
+                            <td class="py-4 px-6 font-medium text-slate-900">Тонкие клиенты</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Оптимизировано</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Только PXE</div>
+                            </td>
+                        </tr>
+                        <!-- Row 5 -->
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="py-4 px-6 font-medium text-slate-900">Аналитика и отчёты</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Расширенные</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Геймерская</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <span class="text-gray-400">—</span>
+                            </td>
+                        </tr>
+                        <!-- Row 6 -->
+                        <tr class="hover:bg-gray-50 transition bg-gray-50">
+                            <td class="py-4 px-6 font-medium text-slate-900">Удалённое управление</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                            </td>
+                        </tr>
+                        <!-- Row 7 -->
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="py-4 px-6 font-medium text-slate-900">Поддержка оборудования</td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Любое</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Оптимизировано</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Геймерское</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <i class="fas fa-check text-green-500 text-xl"></i>
+                                <div class="text-xs text-green-600 mt-1">Тонкие клиенты</div>
+                            </td>
+                        </tr>
+                        <!-- Row 8 -->
+                        <tr class="hover:bg-gray-50 transition bg-gray-50">
+                            <td class="py-4 px-6 font-medium text-slate-900">Лицензионная стоимость</td>
+                            <td class="py-4 px-6 text-center">
+                                <div class="font-bold text-slate-900">45-80 тыс. ₽</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <div class="font-bold text-slate-900">35-60 тыс. ₽</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <div class="font-bold text-slate-900">40-70 тыс. ₽</div>
+                            </td>
+                            <td class="py-4 px-6 text-center">
+                                <div class="font-bold text-slate-900">25-50 тыс. ₽</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-gray-600 mb-6">
+                    Нужна помощь с выбором? Мы проведём бесплатный анализ ваших потребностей и порекомендуем оптимальное решение.
+                </p>
+                <a href="/contact" class="btn-primary px-8 py-3 text-lg">
+                    <i class="fas fa-headset mr-3"></i>
+                    Получить консультацию
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Software -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Дополнительное ПО и утилиты</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Вспомогательные программы для повышения эффективности и безопасности работы клуба
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Utility 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 text-white flex items-center justify-center mb-4">
+                        <i class="fas fa-shield-alt text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Deep Freeze</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Защита систем от изменений. Возврат к исходному состоянию после перезагрузки.
+                    </p>
+                    <div class="text-sm font-medium text-blue-600">от 8 000 ₽/ПК</div>
+                </div>
+
+                <!-- Utility 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-green-400 to-green-600 text-white flex items-center justify-center mb-4">
+                        <i class="fas fa-sync-alt text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">SmartSwitch</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Централизованное управление питанием ПК. Экономия электроэнергии до 40%.
+                    </p>
+                    <div class="text-sm font-medium text-green-600">от 12 000 ₽</div>
+                </div>
+
+                <!-- Utility 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 text-white flex items-center justify-center mb-4">
+                        <i class="fas fa-filter text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">NetFilter PRO</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Фильтрация контента и контроль трафика. Блокировка нежелательных ресурсов.
+                    </p>
+                    <div class="text-sm font-medium text-purple-600">от 15 000 ₽</div>
+                </div>
+
+                <!-- Utility 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 text-white flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-bar text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">GameStats Analytics</h3>
+                    <p class="text-gray-600 text-sm mb-4">
+                        Детальная аналитика популярности игр, загрузки ПК, финансовых показателей.
+                    </p>
+                    <div class="text-sm font-medium text-amber-600">от 10 000 ₽</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation & Support -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div data-animation="slide-in-left">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-6">
+                        Установка, настройка и <span class="text-blue-600">поддержка</span>
+                    </h2>
+                    <p class="text-gray-600 mb-8">
+                        Мы не просто продаём лицензии — мы обеспечиваем полный цикл внедрения и поддержки программного обеспечения.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-cogs text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">Профессиональная установка</h4>
+                                <p class="text-gray-600">
+                                    Настройка под вашу конфигурацию, интеграция с оборудованием, оптимизация производительности.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-green-100 text-green-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-graduation-cap text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">Обучение персонала</h4>
+                                <p class="text-gray-600">
+                                    Подробные инструкции и обучение для администраторов, кассиров, техников.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-headset text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">Круглосуточная поддержка</h4>
+                                <p class="text-gray-600">
+                                    Техническая поддержка 24/7, обновления, консультации по оптимизации работы.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-animation="slide-in-right">
+                    <div class="card p-8 shadow-2xl">
+                        <div class="text-center mb-8">
+                            <div class="w-20 h-20 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mx-auto mb-6">
+                                <i class="fas fa-calculator text-white text-3xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Рассчитать стоимость ПО</h3>
+                            <p class="text-gray-600 mb-6">
+                                Укажите параметры вашего клуба и получите точный расчёт стоимости лицензий
+                            </p>
+                        </div>
+                        
+                        <form id="software-calc-form" class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Количество рабочих станций</label>
+                                <input type="range" min="5" max="100" value="20" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer" id="stations-slider">
+                                <div class="flex justify-between text-sm text-gray-600 mt-1">
+                                    <span>5</span>
+                                    <span id="stations-value" class="font-bold text-blue-600">20</span>
+                                    <span>100+</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Основное решение</label>
+                                <select class="input-field" id="software-select">
+                                    <option value="gizmo">Gizmo</option>
+                                    <option value="runpad">Runpad PRO</option>
+                                    <option value="gameclass">GameClass PRO</option>
+                                    <option value="ccboot">CCBoot Бездиск</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Дополнительные модули</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" class="rounded border-gray-300 text-blue-600 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                        <span class="ml-2 text-sm text-gray-600">Deep Freeze (защита)</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" class="rounded border-gray-300 text-blue-600 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                        <span class="ml-2 text-sm text-gray-600">NetFilter PRO (фильтрация)</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" class="rounded border-gray-300 text-blue-600 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-blue-200 focus:ring-opacity-50">
+                                        <span class="ml-2 text-sm text-gray-600">GameStats Analytics</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="pt-4 border-t">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="text-lg font-bold text-gray-700">Примерная стоимость:</span>
+                                    <span id="total-cost" class="text-2xl font-bold text-blue-600">85 000 ₽</span>
+                                </div>
+                                <p class="text-sm text-gray-500 mb-4">
+                                    * Точная стоимость рассчитывается индивидуально после консультации
+                                </p>
+                            </div>
+                            
+                            <button type="button" class="btn-primary w-full py-3" onclick="window.location.href='/contact'">
+                                <i class="fas fa-paper-plane mr-3"></i>
+                                Получить точный расчёт
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Вопросы о программном обеспечении</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Ответы на наиболее частые вопросы о лицензировании, установке и поддержке ПО
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6" data-animation="fade-in">
+                    <button class="faq-question w-full text-left p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow flex justify-between items-center">
+                        <span class="text-lg font-bold text-slate-900">Какой срок действия лицензий? Нужно ли продлевать?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden mt-2 p-6 bg-white rounded-xl">
+                        <p class="text-gray-600">
+                            У нас есть разные варианты лицензирования:
+                        </p>
+                        <div class="grid md:grid-cols-3 gap-4 mt-4">
+                            <div class="p-4 bg-blue-50 rounded-lg">
+                                <div class="font-bold text-blue-700 mb-1">Постоянная</div>
+                                <div class="text-sm text-gray-600">Единоразовая покупка, бессрочное использование текущей версии</div>
+                                <div class="text-xs text-gray-500 mt-2">Рекомендуем для стабильных конфигураций</div>
+                            </div>
+                            <div class="p-4 bg-green-50 rounded-lg">
+                                <div class="font-bold text-green-700 mb-1">Годовая</div>
+                                <div class="text-sm text-gray-600">Ежегодная оплата, включая все обновления и приоритетную поддержку</div>
+                                <div class="text-xs text-gray-500 mt-2">Лучший вариант для большинства клубов</div>
+                            </div>
+                            <div class="p-4 bg-amber-50 rounded-lg">
+                                <div class="font-bold text-amber-700 mb-1">Месячная</div>
+                                <div class="text-sm text-gray-600">Гибкая подписка, можно отменить в любой момент</div>
+                                <div class="text-xs text-gray-500 mt-2">Для тестирования или сезонных клубов</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="mb-6" data-animation="fade-in" data-animation-delay="100">
+                    <button class="faq-question w-full text-left p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow flex justify-between items-center">
+                        <span class="text-lg font-bold text-slate-900">Можно ли использовать одно ПО на нескольких клубах?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden mt-2 p-6 bg-white rounded-xl">
+                        <p class="text-gray-600">
+                            Это зависит от типа лицензии:
+                        </p>
+                        <ul class="mt-3 space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <div>
+                                    <strong>Одиночная лицензия</strong> — для одного конкретного клуба/локации
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <div>
+                                    <strong>Сетевая лицензия</strong> — для нескольких клубов одной сети/владельца (экономия 20-30%)
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <div>
+                                    <strong>Корпоративная лицензия</strong> — для сетей от 5+ клубов (максимальная экономия и централизованное управление)
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="mt-4 text-gray-600">
+                            При покупке нескольких лицензий мы предоставляем дополнительные скидки и бонусы.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="mb-6" data-animation="fade-in" data-animation-delay="200">
+                    <button class="faq-question w-full text-left p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow flex justify-between items-center">
+                        <span class="text-lg font-bold text-slate-900">Предоставляете ли вы демо-версии для тестирования?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-answer hidden mt-2 p-6 bg-white rounded-xl">
+                        <p class="text-gray-600">
+                            Да, мы предлагаем несколько вариантов тестирования:
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4 mt-4">
+                            <div class="p-4 bg-purple-50 rounded-lg">
+                                <div class="font-bold text-purple-700 mb-1">Демо-версия</div>
+                                <div class="text-sm text-gray-600">Ограниченная функциональность, работает 14 дней</div>
+                                <div class="text-xs text-purple-600 mt-2">Можно скачать с нашего сайта</div>
+                            </div>
+                            <div class="p-4 bg-indigo-50 rounded-lg">
+                                <div class="font-bold text-indigo-700 mb-1">Пробный период</div>
+                                <div class="text-sm text-gray-600">Полная версия на 30 дней с нашей техподдержкой</div>
+                                <div class="text-xs text-indigo-600 mt-2">Требуется консультация и настройка</div>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-gray-600">
+                            Для получения пробной версии свяжитесь с нами — мы поможем выбрать подходящее решение и настроим его для тестирования в ваших условиях.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="/faq" class="btn-secondary border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
+                    <i class="fas fa-question-circle mr-3"></i>
+                    Больше вопросов и ответов
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section: Loaded dynamically from /components/cta.html -->
+    <section id="cta" class="py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white"></section>
+
+    <!-- Footer: Loaded dynamically from /components/footer.html -->
+    <footer id="footer" class="bg-slate-900 text-white pt-16 pb-8"></footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible flex items-center justify-center">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Main JavaScript File -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Software calculator functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Slider functionality
+            const stationsSlider = document.getElementById('stations-slider');
+            const stationsValue = document.getElementById('stations-value');
+            const softwareSelect = document.getElementById('software-select');
+            const totalCostElement = document.getElementById('total-cost');
+            
+            // Price configuration
+            const priceConfig = {
+                gizmo: { base: 45000, perStation: 1500 },
+                runpad: { base: 35000, perStation: 1200 },
+                gameclass: { base: 40000, perStation: 1400 },
+                ccboot: { base: 25000, perStation: 800 }
+            };
+            
+            function calculateTotal() {
+                const stations = parseInt(stationsSlider.value);
+                const software = softwareSelect.value;
+                const config = priceConfig[software];
+                
+                // Calculate base + per station
+                let total = config.base + (config.perStation * stations);
+                
+                // Add some random extra for demo purposes
+                total = Math.round(total / 1000) * 1000;
+                
+                stationsValue.textContent = stations;
+                totalCostElement.textContent = total.toLocaleString('ru-RU') + ' ₽';
+            }
+            
+            stationsSlider.addEventListener('input', calculateTotal);
+            softwareSelect.addEventListener('change', calculateTotal);
+            
+            // Initialize calculation
+            calculateTotal();
+            
+            // FAQ functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle current answer
+                    answer.classList.toggle('hidden');
+                    
+                    // Rotate icon
+                    if (answer.classList.contains('hidden')) {
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+            
+            // Initialize animations with delays
+            document.querySelectorAll('[data-animation-delay]').forEach(el => {
+                const delay = el.getAttribute('data-animation-delay');
+                el.style.animationDelay = delay + 'ms';
+            });
+        });
+    </script>
+</body>
+</html>

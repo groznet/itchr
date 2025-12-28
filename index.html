@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITCHR – Комплексные IT-решения для игровых клубов | Грозный</title>
+    <meta name="description" content="ITCHR — компания с 20-летним опытом, предоставляющая комплексные IT-решения для игровых клубов. Запуск и модернизация компьютерных клубов под ключ.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Add tailwind config use fonts Inter, Montserrat -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Montserrat', 'ui-sans-serif', 'system-ui'],
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Header / Navigation: Loaded dynamically from /components/header.html -->
+    <header id="header" class="sticky top-0 z-50 bg-white shadow-md transition-all duration-300"></header>
+
+    <!-- Hero Section: Loaded dynamically from /components/hero.html -->
+    <section id="hero" class="relative overflow-hidden bg-gradient-to-br from-slate-900 to-blue-900 text-white"></section>
+
+    <!-- Trust Badges -->
+    <section class="py-12 bg-white border-b">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-gray-600 mb-8 font-medium">Нам доверяют ведущие игровые клубы Чечни</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-center">
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold text-slate-900 mb-2">Алькапоне</div>
+                    <div class="text-sm text-gray-500">Игровой клуб</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold text-slate-900 mb-2">Бункер</div>
+                    <div class="text-sm text-gray-500">Киберспорт арена</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold text-slate-900 mb-2">ARTKILL</div>
+                    <div class="text-sm text-gray-500">Гейминг центр</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-2xl font-bold text-slate-900 mb-2">20+</div>
+                    <div class="text-sm text-gray-500">Проектов реализовано</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Наши ключевые услуги</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Полный цикл услуг для создания, модернизации и поддержки игровых клубов любого масштаба
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="card hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-server text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Установка и настройка</h3>
+                    <p class="text-gray-600 mb-4">
+                        Полный цикл создания игрового клуба с нуля: проектирование, монтаж, настройка оборудования.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Проектирование сети</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Электромонтажные работы</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Настройка оборудования</span>
+                        </li>
+                    </ul>
+                    <a href="/services/ustanovka" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                        Подробнее <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-600 group-hover:text-white transition">
+                        <i class="fas fa-desktop text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Поставка ПО</h3>
+                    <p class="text-gray-600 mb-4">
+                        Лицензионное программное обеспечение для управления игровым клубом и рабочими станциями.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Gizmo, Runpad PRO</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">GameClass PRO</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">CCBoot Бездиск</span>
+                        </li>
+                    </ul>
+                    <a href="/solutions" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                        Подробнее <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fas fa-sync-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Обновление и расширение</h3>
+                    <p class="text-gray-600 mb-4">
+                        Модернизация существующих клубов: замена оборудования, расширение площадей, обновление ПО.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Апгрейд оборудования</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Расширение зон</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Миграция данных</span>
+                        </li>
+                    </ul>
+                    <a href="/services/modernizatsiya" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                        Подробнее <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="card hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-16 h-16 rounded-xl bg-green-100 text-green-600 flex items-center justify-center mb-6 group-hover:bg-green-600 group-hover:text-white transition">
+                        <i class="fas fa-headset text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Техподдержка</h3>
+                    <p class="text-gray-600 mb-4">
+                        Круглосуточная техническая поддержка, удалённое администрирование и выезд специалистов.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">24/7 мониторинг</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Удалённое управление</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span class="text-sm">Экстренный выезд</span>
+                        </li>
+                    </ul>
+                    <a href="/services/podderzhka" class="text-blue-600 font-medium inline-flex items-center group-hover:text-blue-700">
+                        Подробнее <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="/services" class="btn-secondary border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
+                    <i class="fas fa-list-alt mr-3"></i>
+                    Все услуги
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-slate-900 mb-6">
+                        Почему <span class="text-blue-600">ITCHR</span> — правильный выбор?
+                    </h2>
+                    <p class="text-gray-600 mb-8">
+                        За 20+ лет работы мы накопили уникальный опыт в создании и обслуживании игровых клубов. 
+                        Мы понимаем специфику бизнеса и технические требования как никто другой.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-award text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">20+ лет опыта</h4>
+                                <p class="text-gray-600">
+                                    Мы работаем в индустрии с момента появления первых компьютерных клубов в регионе.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-cogs text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">Полный цикл услуг</h4>
+                                <p class="text-gray-600">
+                                    От проекта до ежедневной поддержки — всё в одном месте. Не нужно искать разных подрядчиков.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-green-100 text-green-600 flex items-center justify-center mr-4">
+                                <i class="fas fa-shield-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900 mb-2">Гарантия качества</h4>
+                                <p class="text-gray-600">
+                                    Даём гарантию на все работы и оборудование. Обеспечиваем стабильную работу 24/7.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="card p-8 shadow-2xl">
+                        <div class="text-center mb-8">
+                            <div class="w-20 h-20 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mx-auto mb-6">
+                                <i class="fas fa-calendar-check text-white text-3xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-900 mb-4">Бесплатная консультация</h3>
+                            <p class="text-gray-600 mb-6">
+                                Запишитесь на бесплатную консультацию и получите расчёт стоимости вашего проекта
+                            </p>
+                        </div>
+                        
+                        <form id="consultation-form" class="space-y-4">
+                            <div>
+                                <input type="text" placeholder="Ваше имя" class="input-field" required>
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Телефон" class="input-field" required>
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Email" class="input-field" required>
+                            </div>
+                            <div>
+                                <select class="input-field">
+                                    <option value="" disabled selected>Тип проекта</option>
+                                    <option value="new">Новый клуб</option>
+                                    <option value="upgrade">Модернизация</option>
+                                    <option value="support">Техподдержка</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn-primary w-full py-4 text-lg">
+                                <i class="fas fa-paper-plane mr-3"></i>
+                                Отправить заявку
+                            </button>
+                        </form>
+                        
+                        <p class="text-sm text-gray-500 text-center mt-6">
+                            Мы свяжемся с вами в течение 2 часов в рабочее время
+                        </p>
+                    </div>
+                    
+                    <!-- Floating element -->
+                    <div class="absolute -top-6 -right-6 bg-amber-400 text-slate-900 font-bold py-3 px-6 rounded-xl shadow-lg">
+                        Быстрый старт!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Solutions -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Программные решения</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Мы работаем с лучшим ПО для управления игровыми клубами, обеспечивая стабильность и удобство
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Solution 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 text-center">
+                    <div class="rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center mx-auto mb-6">
+                        <!-- <i class="fas fa-cube text-white text-3xl"></i> -->
+                        <img src="/assets/images/Gizmo.svg" alt="Gizmo" class="w-full h-full object-cover rounded-xl">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Gizmo</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Комплексное решение для управления компьютерным клубом с широкими возможностями
+                    </p>
+                    <div class="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">
+                        <i class="fas fa-star mr-2"></i>
+                        Популярный выбор
+                    </div>
+                </div>
+
+                <!-- Solution 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 text-center">
+                    <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mx-auto mb-6">
+                        <!-- <i class="fas fa-rocket text-white text-3xl"></i> -->
+                        <img src="/assets/images/Runpad-PRO.jpg" alt="Runpad PRO" class="w-full h-full object-cover rounded-xl">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Runpad PRO</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Быстрая и стабильная платформа для работы игровых станций с тонкими клиентами
+                    </p>
+                </div>
+
+                <!-- Solution 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 text-center">
+                    <div class="w-20 h-20 rounded-xl from-green-500 to-green-700 flex items-center justify-center mx-auto mb-6">
+                        <!-- <i class="fas fa-gamepad text-white text-3xl"></i> -->
+                        <img src="/assets/images/GameClass PRO.svg" alt="GameClass PRO" class="w-full h-full object-cover rounded-xl">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">GameClass PRO</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Специализированное решение для гейминг-центров с турнирными функциями
+                    </p>
+                </div>
+
+                <!-- Solution 4 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 text-center">
+                    <div class="w-20 h-20 rounded-xl from-red-500 to-red-700 flex items-center justify-center mx-auto mb-6">
+                        <!-- <i class="fas fa-hdd text-white text-3xl"></i> -->
+                        <img src="/assets/images/CCBoot.png" alt="CCBoot Бездиск" class="w-full h-full object-cover rounded-xl">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">CCBoot Бездиск</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Бездисковые решения для снижения затрат на обслуживание и энергопотребление
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="/solutions" class="btn-primary px-8 py-3">
+                    <i class="fas fa-laptop-code mr-3"></i>
+                    Все решения
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section: Loaded dynamically from /components/cta.html -->
+    <section id="cta" class="py-20 bg-gradient-to-r from-slate-900 to-blue-900 text-white"></section>
+
+    <!-- Footer: Loaded dynamically from /components/footer.html -->
+    <footer id="footer" class="bg-slate-900 text-white pt-16 pb-8"></footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible flex items-center justify-center">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Main JavaScript File -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
