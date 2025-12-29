@@ -12,6 +12,17 @@
     <script src="/assets/js/tailwindcss.js"></script>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Montserrat', 'ui-sans-serif', 'system-ui'],
+                    },
+                },
+            },
+        }
+    </script>    
 </head>
 <body class="font-sans bg-gray-50 text-gray-900">
     <!-- Header / Navigation: Loaded dynamically from /components/header.html -->
